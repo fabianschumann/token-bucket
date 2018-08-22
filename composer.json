@@ -14,7 +14,7 @@
         }
     ],
     "autoload": {
-        "psr-4": {"fabianschumann\\tokenBucket\\": "classes/"}
+        "psr-4": {"bandwidthThrottle\\tokenBucket\\": "classes/"}
     },
     "require": {
         "php": ">=5.6",
