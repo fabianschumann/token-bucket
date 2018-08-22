@@ -1,5 +1,5 @@
 {
-    "name": "bandwidth-throttle/token-bucket",
+    "name": "fabianschumann/token-bucket",
     "type": "library",
     "description": "Implementation of the Token Bucket algorithm.",
     "keywords": ["token bucket", "bandwidth", "rate limit", "throttle", "throttling", "rate limiting"],
@@ -14,15 +14,15 @@
         }
     ],
     "autoload": {
-        "psr-4": {"bandwidthThrottle\\tokenBucket\\": "classes/"}
+        "psr-4": {"fabianschumann\\tokenBucket\\": "classes/"}
     },
     "require": {
         "php": ">=5.6",
         "malkusch/lock": "^1",
-        "ext-bcmath":"*"
+        "ext-bcmath":"*",
+        "ext-redis": "*"
     },
     "require-dev": {
-        "ext-redis": "^2.2.4|^3",
         "predis/predis": "^1",
         "phpunit/phpunit": "^5",
         "mikey179/vfsStream": "^1.5.0",
